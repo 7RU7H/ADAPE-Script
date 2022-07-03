@@ -89,6 +89,9 @@ If( $OS -match "10" -or
     $OS -match "2012" -or
     $OS -match "2016" -or
     $OS -match "8")
+    {
+	Write-Host "OS Detected: $version"
+    }
 	
 #Inveigh
 function Inveigh
